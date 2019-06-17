@@ -1,10 +1,11 @@
-#!/bin/bash/sh
+#!/bin/bash
 echo "STARTING BUILD OF SC"
 cd ~/
 rm -f tmp.sh
 
 echo \
-"ECHO 'TEST TEST' " \
+"#!/bin/bash" \
+"echo TEST " \
 " " \
 " " \
 > ~/tmp.sh
